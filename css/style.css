@@ -21,17 +21,17 @@ body, html {
   }
 
   .parallax-1 {
-    background-image: url(/images/dolomites-1.jpg);
+    background-image: url("./images/dolomites-1.jpg");
     min-height: 100%;
   }
 
   .parallax-2 {
-    background-image: url(/images/dolomites-2.jpg);
+    background-image: url("./images/dolomites-2.jpg");
     height: 75%;
   }
 
   .parallax-3 {
-    background-image: url(/images/dolomites-3.jpg);
+    background-image: url("./images/dolomites-3.jpg");
     height: 70%; 
   }
 
