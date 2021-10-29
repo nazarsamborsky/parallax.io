@@ -1,0 +1,95 @@
+body, html {
+    height: 100%;
+    margin:0;
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    line-height: 1.5em;
+    color: rgb(73, 79, 85);
+  }
+  
+  .parallax-1, .parallax-2, .parallax-3 {
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* parallax efekt*/
+    background-attachment: fixed;
+
+  }
+
+  .parallax-1 {
+    background-image: url(/images/dolomites-1.jpg);
+    min-height: 100%;
+  }
+
+  .parallax-2 {
+    background-image: url(/images/dolomites-2.jpg);
+    height: 75%;
+  }
+
+  .parallax-3 {
+    background-image: url(/images/dolomites-3.jpg);
+    height: 70%; 
+  }
+
+  section {
+    text-align: center;
+    padding: 0.3em 0.5em;
+  }
+
+  .svetla {
+    background-color: #f4f4f4;
+  }
+
+  .tmava {
+    background-color: rgb(73, 79, 85);
+    color: #f4f4f4;
+  }
+
+  .nadpis, .text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+
+  .span {
+    background-color: #f4f4f4;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    font-size: 45px;
+  }
+
+  .text {
+    color:orange;
+    mix-blend-mode: difference;
+  }
+
+  .highlight {
+    font-weight: 800;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(73, 79, 85);
+    color: #f4f4f4;
+    text-align: center;
+  }
+
+  .footer p {
+    margin: 5px 0px;
+  }
+  
