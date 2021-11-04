@@ -103,3 +103,18 @@ body, html {
       padding: 5px 10px;
     }
   }
+
+  @media only screen and (max-width: 420px) {
+
+    .span {
+      font-size: 30px;
+    }
+    .end {
+      font-size: 18px;
+      padding: 5px 10px;
+    }
+
+    .text {
+      top: 5%;
+    }
+  }
